@@ -25,6 +25,8 @@ def respond(fullfilment):
 
 
 def trips_to_response(trips):
+    # Sort the trip on departure order, first ones to leave first
+    trips = sorted(trips, key=lambda trip: int(trip.minutes_left))
     response = ""
     for trip in trips:
         response += str(trip) + "\n"

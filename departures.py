@@ -26,13 +26,13 @@ class StationOfInterest:
 
 class Trip:
     def __init__(self, vehicle_type, line, destination, minutes_left):
-        self.vehicle_type = vehicle_type
+        self.vehicle_type = vehicle_type.capitalize()
         self.line = line
         self.destination = destination
-        self.minutes_left = str(int(minutes_left))
+        self.minutes_left = int(minutes_left)
 
     def __repr__(self):
-        return self.vehicle_type + " " + self.line + " towards " + self.destination + " departs in " + self.minutes_left + " minutes."
+        return self.vehicle_type + " " + self.line + " towards " + self.destination + " departs in " + str(self.minutes_left) + " minutes."
 
 
 def init_vasttrafik_api_keys(path_to_api_keys):
