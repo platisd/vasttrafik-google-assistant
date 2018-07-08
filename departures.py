@@ -10,7 +10,8 @@ PEP8 check with: pep8 --ignore=E501 departures.py
 """
 import pytrafik.client
 import json
-import time
+from datetime import datetime
+from pytz import timezone
 import os
 from datetime import datetime
 from collections import defaultdict
@@ -68,17 +69,16 @@ def init_connection(api_key, api_secret):
         return None
 
 
-def get_time(host="pool.ntp.org"):
+def get_time():
     """
-    Fetches the system time
+    Fetches the local time in Gothenburg
 
     Returns a tuple with the current date and time
     """
-    # Get system time
-    system_time = time.time()
+    sweden = timezone('Europe/Stockholm')
+    se_time = datetime.now(sweden)
 
-    date_time = time.strptime(time.ctime(system_time), "%a %b %d %H:%M:%S %Y")
-    return (time.strftime("%Y-%m-%d", date_time), time.strftime("%H:%M", date_time))
+    return (se_time.strftime("%Y-%m-%d"), se_time.strftime("%H:%M"))
 
 
 def get_next_trips(vasttrafik, stations):
