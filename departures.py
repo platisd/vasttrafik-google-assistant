@@ -32,7 +32,7 @@ class Trip:
         self.minutes_left = int(minutes_left)
 
     def __repr__(self):
-        return self.vehicle_type + " " + self.line + " towards " + self.destination + " departs in " + str(self.minutes_left) + " minutes."
+        return self.vehicle_type + " " + self.line + " to " + self.destination + " in " + str(self.minutes_left) + " minutes."
 
 
 def init_vasttrafik_api_keys(path_to_api_keys):

@@ -24,10 +24,16 @@ def respond(fullfilment):
     return make_response(jsonify({'fulfillmentText': fullfilment}))
 
 
-def trips_to_response(trips):
+def trips_to_response(location, trips):
+    """
+    Formulates a response to be read by Google Assistant
+
+    location    The location where the trips depart from
+    trips       The trips departing from the location of interest
+    """
     # Sort the trip on departure order, first ones to leave first
     trips = sorted(trips, key=lambda trip: int(trip.minutes_left))
-    response = ""
+    response = "Departures from " + location + ":\n"
     for trip in trips:
         response += str(trip) + "\n"
 
@@ -35,7 +41,7 @@ def trips_to_response(trips):
 
 
 @app.route('/departures', methods=['POST'])
-def webhook():
+def departures_handler():
     try:
         req = request.get_json(silent=True, force=True)
         print(json.dumps(req))
@@ -56,7 +62,7 @@ def webhook():
 
         trips = departures.get_next_trips(vasttrafik, stations_of_interest)
 
-        return respond(trips_to_response(trips))
+        return respond(trips_to_response(location, trips))
     except Exception as e:
         print(e)
         return respond("Sorry, an error occurred. Please check the server logs.")
