@@ -1,8 +1,9 @@
-# !/usr/bin/env python
+#!/usr/bin/python3
 # -*- coding:utf8 -*-
 """
-The Personal Bus Stop is an Action on Google which utilizes Google Assistant
-to fetch the upcoming trips from the station near my house and my work.
+The Personal Bus Stop is the back-end for an Action on Google which utilizes
+Google Assistant to fetch the upcoming trips from the station near my house
+and my work.
 
 This file acts as the gateway between the Python module which fetches the
 upcoming bus or tram departures and the Google Assistant service.

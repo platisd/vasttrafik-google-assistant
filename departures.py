@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 VasttraPi - Your personal departures screen for Västtrafik buses
-
-Running on: 2017-03-02-raspbian-jessie
-To run the python GUI on startup appended python3 /home/pi/vasttraPi/departures.py in /home/pi/.xsession
-
-PEP8 check with: pep8 --ignore=E501 departures.py
 """
 import pytrafik.client
 import json
