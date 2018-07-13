@@ -47,11 +47,8 @@ def departures_handler():
         req = request.get_json(silent=True, force=True)
         print(json.dumps(req))
 
-        location_data = req.get('queryResult').get('parameters').get('location')
-        if 'shortcut' not in location_data:
-            return respond("I do not know where this is.")
+        location = req.get('queryResult').get('parameters').get('current-location')
 
-        location = location_data.get('shortcut')
         vasttrafik = departures.init()  # Establish connection to Vasttrafik
 
         if location == 'home':
