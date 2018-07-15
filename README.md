@@ -3,6 +3,8 @@ A simple Python web server, in Flask, which is interfaced with an Action on Goog
 
 Read more about the project [here](https://platis.solutions/blog/2018/07/15/custom-actions-for-google-assistant/).
 
+![VasttraPi and Google Home Mini](https://i.imgur.com/4Erjr1K.jpg)
+
 ## Get started
 If you want a custom Google Action that talks to a sample Python server, then please follow this [Instructable](https://www.instructables.com/id/Create-Custom-Actions-for-Google-Assistant/).
 
