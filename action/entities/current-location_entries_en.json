@@ -1,0 +1,21 @@
+[
+  {
+    "value": "home",
+    "synonyms": [
+      "house",
+      "crib",
+      "apartment",
+      "home"
+    ]
+  },
+  {
+    "value": "work",
+    "synonyms": [
+      "work",
+      "office",
+      "code mine",
+      "Delphi",
+      "Aptiv"
+    ]
+  }
+]

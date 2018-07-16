@@ -1,0 +1,432 @@
+[
+  {
+    "id": "fdea281d-896e-448f-a7f5-3517a0378c35",
+    "data": [
+      {
+        "text": "When is the next departure from ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "495ab91d-cd29-4a1c-8b5b-32203ce52645",
+    "data": [
+      {
+        "text": "When is the next departure from ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "87fb7fca-b171-4f1a-bc81-252708c80ed1",
+    "data": [
+      {
+        "text": "At this moment I am at ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "0f92bb10-2546-4ce2-a059-dccbb1fe4114",
+    "data": [
+      {
+        "text": "Currently I am ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "361b63ab-61e5-476e-a986-722a2d2ee015",
+    "data": [
+      {
+        "text": "Right now I am at the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "f8677e39-7241-4948-8cbb-79be8b2ea500",
+    "data": [
+      {
+        "text": "I am headed towards the ",
+        "userDefined": false
+      },
+      {
+        "text": "river",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "4b256429-87d2-4d96-ab2a-e720d0c596e5",
+    "data": [
+      {
+        "text": "I am at the ",
+        "userDefined": false
+      },
+      {
+        "text": "hospital",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "bbca945e-9934-46eb-a1d0-1d5a64fc13ed",
+    "data": [
+      {
+        "text": "I am near the ",
+        "userDefined": false
+      },
+      {
+        "text": "port",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "a2cfe0d3-cd58-4fd3-9ca8-fcedcce2d9a5",
+    "data": [
+      {
+        "text": "I am in the ",
+        "userDefined": false
+      },
+      {
+        "text": "center",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "ed39ccd1-7b58-4dfd-985a-97484588f822",
+    "data": [
+      {
+        "text": "I am at the ",
+        "userDefined": false
+      },
+      {
+        "text": "bakery",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "5851f138-c581-4f39-9e44-de907df4140f",
+    "data": [
+      {
+        "text": "I am at the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1531767900
+  },
+  {
+    "id": "44bad776-e496-4ee8-a2bc-5b63b47baccb",
+    "data": [
+      {
+        "text": "When is the next tram leaving from ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "c843b35e-4c9a-48b2-80a6-0caf2907c7e7",
+    "data": [
+      {
+        "text": "When is the next bus leaving from ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "b8b051d0-bf7c-4616-83c7-0fa6decd5ec2",
+    "data": [
+      {
+        "text": "Tell me the bus departures from ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "24f80dd5-d6dd-4461-9ca2-716ce7037196",
+    "data": [
+      {
+        "text": "I am at ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      },
+      {
+        "text": " right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "92449cec-6964-49c3-a531-e87a0e9e8f3a",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      },
+      {
+        "text": " right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "31faad98-2e6f-4eff-9cc8-9e537204471c",
+    "data": [
+      {
+        "text": "Work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "cfae4b5c-fa3c-4af3-b674-10ecc54518e3",
+    "data": [
+      {
+        "text": "Home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "5d9bb34f-0d2c-45ff-bec3-4ab81150bd71",
+    "data": [
+      {
+        "text": "I am about to depart from ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "e05c9bb6-3712-47ec-b0a0-e8488ffed860",
+    "data": [
+      {
+        "text": "I am preparing to leave from ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "ce317765-08d4-4a55-ad92-dacfaf4e32fa",
+    "data": [
+      {
+        "text": "I am currently ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "168962d6-ba76-4f54-a6e7-af8fab21a202",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  },
+  {
+    "id": "11572b2f-b5fd-4752-9176-5159000c2f73",
+    "data": [
+      {
+        "text": "I am at ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "current-location",
+        "meta": "@current-location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531767900
+  }
+]

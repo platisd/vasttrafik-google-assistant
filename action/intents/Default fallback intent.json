@@ -1,0 +1,33 @@
+{
+  "id": "9204fb91-d3b6-43b3-8726-3af4debad8f0",
+  "name": "Default fallback intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I am sorry, I do not know where this is.",
+            "I am not sure where that is.",
+            "I don\u0027t understand what you said!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530998495,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "90113993-4842-4971-8973-1193c7f94385",
+  "name": "departures",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "location",
+      "affectedContexts": [
+        {
+          "name": "departures",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6863ae66-cbf8-4eac-97ab-25388ad8d717",
+          "required": true,
+          "dataType": "@current-location",
+          "name": "current-location",
+          "value": "$current-location",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where are you right now?"
+            },
+            {
+              "lang": "en",
+              "value": "What is your location?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you at home, or at work?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531767900,
+  "fallbackIntent": false,
+  "events": []
+}
