@@ -32,7 +32,10 @@ def respond_to_assistant(fullfilment):
 
 
 def respond_to_info_center(station_a_departures, station_b_departures, predictions, current_time):
-    return make_response(jsonify({'depsA': station_a_departures, 'depsB': station_b_departures, 'pred': [(time, weather[:7], temperature) for time, weather, temperature in predictions], 'time': current_time}))
+    response = {'depsA': station_a_departures, 'depsB': station_b_departures, 'pred': [
+        (time, weather[:7], temperature) for time, weather, temperature in predictions], 'time': current_time}
+    print(response)
+    return make_response(jsonify(response))
 
 
 def trips_to_response(location, trips):
@@ -91,8 +94,6 @@ def info_center_handler():
                                                        fredasgatan])
     trips_from_varbergsgatan = departures.get_next_trips(
         vasttrafik, [varbergsgatan])
-
-    print(trips_from_varbergsgatan)
 
     # Get the minutes to the next two departures for each station of interest
     departures_from_station_a = sorted([
